@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    UILabel* label = [[UILabel alloc]initWithFrame:CGRectMake(50, 50, 200, 100)];
+    label.text = @"这里是商城";
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {
