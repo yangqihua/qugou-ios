@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MeViewController.h
 //  qugou-ios
 //
-//  Created by yangqihua on 2017/11/30.
+//  Created by yangqihua on 2017/12/1.
 //  Copyright © 2017年 yangqihua. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MeViewController : UIViewController
 
 @end
-
