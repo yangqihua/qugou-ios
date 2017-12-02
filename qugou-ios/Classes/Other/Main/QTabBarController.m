@@ -30,8 +30,8 @@
     _topViewController = [[TopViewController alloc]init];
     [self addChildViewController:_topViewController withImage:[UIImage imageNamed:@"recommend"] selectedImage:[UIImage imageNamed:@"recommend"] withTitle:@"榜单"];
     
-    _shopViewController = [[ShopViewController alloc]init];
-    [self addChildViewController:_shopViewController withImage:[UIImage imageNamed:@"top"] selectedImage:[UIImage imageNamed:@"top"] withTitle:@"动态"];
+    _forumViewController = [[ForumViewController alloc]init];
+    [self addChildViewController:_forumViewController withImage:[UIImage imageNamed:@"top"] selectedImage:[UIImage imageNamed:@"top"] withTitle:@"动态"];
     
     _meViewController = [[MeViewController alloc]init];
     [self addChildViewController:_meViewController withImage:[UIImage imageNamed:@"me"] selectedImage:[UIImage imageNamed:@"me"] withTitle:@"我的"];

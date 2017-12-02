@@ -1,5 +1,5 @@
 //
-//  ShopViewController.h
+//  ForumViewController.h
 //  qugou-ios
 //
 //  Created by yangqihua on 2017/12/1.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShopViewController : UIViewController
+@interface ForumViewController : UIViewController
 
 @end

@@ -1,18 +1,18 @@
 //
-//  ShopViewController.m
+//  ForumViewController.m
 //  qugou-ios
 //
 //  Created by yangqihua on 2017/12/1.
 //  Copyright © 2017年 yangqihua. All rights reserved.
 //
 
-#import "ShopViewController.h"
+#import "ForumViewController.h"
 
-@interface ShopViewController ()
+@interface ForumViewController ()
 
 @end
 
-@implementation ShopViewController
+@implementation ForumViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

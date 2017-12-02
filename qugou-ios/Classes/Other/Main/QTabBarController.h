@@ -10,13 +10,13 @@
 #import "QNavigationController.h"
 #import "HomeViewController.h"
 #import "TopViewController.h"
-#import "ShopViewController.h"
+#import "ForumViewController.h"
 #import "MeViewController.h"
 
 @interface QTabBarController : UITabBarController{
     HomeViewController* _homeViewController;
     TopViewController* _topViewController;
-    ShopViewController* _shopViewController;
+    ForumViewController* _forumViewController;
     MeViewController* _meViewController;
 }
 
