@@ -1,5 +1,5 @@
 //
-//  FollowViewController.h
+//  TopViewController.h
 //  qugou-ios
 //
 //  Created by yangqihua on 2017/12/1.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FollowViewController : UIViewController
+@interface TopViewController : UIViewController
 
 @end

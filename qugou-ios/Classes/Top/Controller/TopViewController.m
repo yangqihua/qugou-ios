@@ -1,18 +1,18 @@
 //
-//  FollowViewController.m
+//  TopViewController.m
 //  qugou-ios
 //
 //  Created by yangqihua on 2017/12/1.
 //  Copyright © 2017年 yangqihua. All rights reserved.
 //
 
-#import "FollowViewController.h"
+#import "TopViewController.h"
 
-@interface FollowViewController ()
+@interface TopViewController ()
 
 @end
 
-@implementation FollowViewController
+@implementation TopViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

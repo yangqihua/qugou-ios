@@ -27,11 +27,11 @@
     _homeViewController = [[HomeViewController alloc]init];
     [self addChildViewController:_homeViewController withImage:[UIImage imageNamed:@"home"] selectedImage:[UIImage imageNamed:@"home"] withTitle:@"首页"];
     
-    _followViewController = [[FollowViewController alloc]init];
-    [self addChildViewController:_followViewController withImage:[UIImage imageNamed:@"recommend"] selectedImage:[UIImage imageNamed:@"recommend"] withTitle:@"关注"];
+    _topViewController = [[TopViewController alloc]init];
+    [self addChildViewController:_topViewController withImage:[UIImage imageNamed:@"recommend"] selectedImage:[UIImage imageNamed:@"recommend"] withTitle:@"榜单"];
     
     _shopViewController = [[ShopViewController alloc]init];
-    [self addChildViewController:_shopViewController withImage:[UIImage imageNamed:@"top"] selectedImage:[UIImage imageNamed:@"top"] withTitle:@"商城"];
+    [self addChildViewController:_shopViewController withImage:[UIImage imageNamed:@"top"] selectedImage:[UIImage imageNamed:@"top"] withTitle:@"动态"];
     
     _meViewController = [[MeViewController alloc]init];
     [self addChildViewController:_meViewController withImage:[UIImage imageNamed:@"me"] selectedImage:[UIImage imageNamed:@"me"] withTitle:@"我的"];
